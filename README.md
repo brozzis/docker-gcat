@@ -4,11 +4,6 @@
 [docker-rclone-mount]: https://github.com/tynor88/docker-rclone-mount
 
 # docker-rclone
-[![Docker Layers](https://images.microbadger.com/badges/image/tynor88/rclone.svg)][microbadger]
-[![Docker Pulls](https://img.shields.io/docker/pulls/tynor88/rclone.svg)][dockerstore]
-[![Docker Stars](https://img.shields.io/docker/stars/tynor88/rclone.svg)][dockerstore]
-[![Docker Build Status](https://img.shields.io/docker/build/tynor88/rclone.svg)][dockerstore]
-[![Docker Build](https://img.shields.io/docker/automated/tynor88/rclone.svg)][dockerstore]
 
 Docker for [Rclone][appurl] - a command line program to sync files and directories to and from various cloud services.
 

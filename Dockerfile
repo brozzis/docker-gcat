@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER sbrozzi <stefano.brozzi@gmail.com>
+MAINTAINER tynor88 <tynor@hotmail.com>
 
 # global environment settings
 ENV PLATFORM_ARCH="amd64"
@@ -12,7 +12,8 @@ ENV S6_KEEP_ENV=1
 # install packages
 RUN \
  apk update && \
- apk add vim
+ apk add --no-cache \
+ ca-certificates
 
 # install build packages
 RUN \
