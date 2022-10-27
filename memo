@@ -1,0 +1,1 @@
+-v '/mnt/cache/gcat':'/out':'rw' -v '/mnt/user/Pictures/autoritratto/':'/in':'ro' 'brozzis/prova:latest'
