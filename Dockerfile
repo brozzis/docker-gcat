@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER sbrozzi <stefano.brozzi@gmail.com>
+LABEL maintainer="sbrozzi <stefano.brozzi@gmail.com>"
 
 ENV PLATFORM_ARCH="amd64"
 
